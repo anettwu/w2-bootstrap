@@ -1,0 +1,459 @@
+@import url(reset.css);
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 62.5%;
+
+}
+
+body {
+    position: relative;
+}
+
+.h2__90 {
+    font-size: 9rem;
+    color: #fff;
+}
+
+/*########################
+        NAV
+########################*/
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #FF6033;
+}
+
+
+nav a {
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #000;
+}
+
+/*.navbar-light .navbar-nav .nav-link {
+    color: #FF6033;
+}*/
+
+.nav__utilities {
+    padding: 40px 0;
+    background-color: #f9f8fb;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.nav__btn-size {
+    font-size: 3rem;
+    background: #FF6033;
+}
+
+
+/*#########################
+        HEADER / HOME 
+##########################*/
+
+.header {
+    height: 990px;
+/*    margin-top: 141px;*/
+    
+    background: url(img/landing.png) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.home__btn {
+    background: #FF6033;
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+
+.home__h2 {
+    font-weight: 900;
+    color: #000;
+}
+
+.home__p {
+    line-height: 1.5;
+    color: #000;
+}
+
+.home__group {
+    margin-top: 348px;
+}
+
+.home__scroll {
+    margin-top: 780px;
+}
+
+
+
+/*########################
+        ABOUT
+#########################*/
+
+.about {
+    background-color: #00b1b1;
+}
+
+.about__line {
+    line-height: 1.45;
+}
+
+.about__wrap {
+    height: 700px;
+}
+
+
+
+/*########################
+        SERVICES
+#########################*/
+
+.services {
+    background-color: #70BFFF;
+    height: 790px;
+}
+
+.services__wrap {
+    height: 790px;
+    width: 100%;
+}
+
+
+.services__h2 {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+
+}
+
+.services__box {
+    width: 400px;
+    height: 100px;
+    background: #eee;
+}
+
+.services__font {
+    font-weight: 600;
+    font-size: 2rem;
+
+}
+
+
+
+.page-link {
+    color: #000;
+}
+
+.page-link:hover {
+
+    color: #FF6033;
+}
+
+/*########################
+        GALLERY
+#########################*/
+
+.gallery {
+    background-color: #FFE92F;
+}
+
+.gallery__header {
+    width: 600px;
+    padding-top: 100px; 
+}
+
+.gallery__h2 {
+    font-size: 9rem;
+}
+
+.gallery__p {
+    font-size: 1.7rem;
+    line-height: 1.65;
+    padding: 50px 0;
+}
+
+.gallery__btn {
+    font-size: 2rem;
+    width: 200px;
+    background: #5585a2;
+    color: #fff;
+    letter-spacing: 0.2rem;
+    margin-top: 45px;
+}
+
+.gallery__btn-wrap {
+    padding-bottom: 120px;
+}
+
+
+/*########################
+        SUBSCRIBE
+#########################*/
+
+.subscribe {
+    background: url(img/subscribe_bg.png) no-repeat center ;
+    background-size: contain;
+    height: 500px;
+}
+
+.sub__title {
+    font-size: 4rem;
+}
+
+.sub__text {
+    line-height: 1.6;
+}
+
+.sub__btn {
+    font-size: 2rem;
+    color: #fff;
+    background: #96b92c;
+    padding: 10px 20px;
+    letter-spacing: .1rem;
+}
+
+input {
+    height: 50px;
+}
+
+/*########################
+        BLOG
+#########################*/
+
+.blog {
+    background-color: #B07CF7;
+    padding-bottom: 70px;
+    color: #ddd;
+}
+
+.blog__header {
+    width: 600px;
+    padding-top: 100px;
+}
+
+.blog__photos {
+    padding-bottom: 50px;
+}
+
+.blog__h2 {
+    font-size: 9rem;
+}
+
+.blog__p {
+    font-size: 1.7rem;
+    line-height: 1.6;
+    padding: 50px 0;
+}
+
+.blog__btn {
+    background: #f72b3b;
+    color: #fff;
+    letter-spacing: .2rem;
+    font-size: 20px;
+    width: 200px;
+    margin-top: 50px;
+}
+
+.blog__number {
+    font-size: 3.2rem;
+    color: #fff;
+    background: #000;
+    opacity: .6;
+    width: 60px;
+    height: 60px;
+    line-height: .7;
+    padding-top: 7px;
+    border-radius: 15%;
+    position: absolute;
+    top: 8%;
+    left: 8%;
+}
+
+.blog__number-span {
+    font-size: 2.1rem;
+}
+
+.blog__text {
+    font-size: 2rem;
+    margin-bottom: 5%;
+    line-height: 1.5;
+}
+
+.blog__text-small {
+    font-size: 1.3rem;
+    
+}
+
+.blog__hovereffect {
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.blog__hovereffect .blog__wrap-text {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .4s ease-in-out;
+    overflow: hidden;
+}
+
+.blog__img {
+    transition: all .4s linear;
+    display: block;
+    position: relative;
+}
+
+.blog__hovereffect h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 17px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+
+    position: absolute;
+    bottom: -15px;
+
+    transition: all .2s ease-in-out;
+}
+
+.blog__text-small {
+    position: absolute;
+    bottom: 0;
+}
+
+.blog__hovereffect:hover img {
+    transform: scale(1.2);
+}
+
+.blog__hovereffect:hover .blog__wrap-text {
+    opacity: 1;
+
+}
+
+.blog__hovereffect:hover h3 {
+    opacity: 1;
+    transform: translateY(0);
+}
+/*########################
+        CONTACT
+#########################*/
+
+.contact {
+    height: 865px;
+}
+
+
+/*########################
+        FOOTER
+#########################*/
+
+footer {
+    height: 90px;
+    background: #262626;
+
+}
+
+/*########################
+        MEDIA
+#########################*/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575px) {
+
+    .nav__utilities {
+        padding-left: 15px;
+    }
+
+    .about {
+        height: 870px;
+    }
+
+   
+    
+    .h2__90,
+    .home__h2 {
+        font-size: 7rem;
+
+    }
+}
+
+
+/* Small devices (landscape phones, less than 768px)*/
+
+@media (max-width: 767px) {
+    .subscribe {
+        
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .about {
+        height: 880px;
+    }
+}
+
+
+/* Medium devices (tablets, less than 992px)*/
+
+@media (max-width: 991px) {
+
+    .services {
+        height: 920px;
+    }
+    
+    .services__box {
+        width: 100%;
+    }
+    
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .about {
+        height: 1000px;
+    }
+    
+
+}
+
+/* Large devices (desktops, less than 1200px)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    
+}
+
+@media (max-width: 1199px) {
+    .h2__90 {
+        text-align: center;
+        width: 90%;
+    }
+
+    .services__h2 {
+        position: absolute;
+        top: 30%;
+    }
+  
+    .subscribe {
+        background-size: cover;
+    }
+    
+}
